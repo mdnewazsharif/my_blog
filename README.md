@@ -1,6 +1,6 @@
 # blog
 
-A new Flutter project.
+This is a starter template for flutter blog app, like, comment, create post feature added.
 
 ## Getting Started
 

@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:blog/constant.dart';
 import 'package:blog/models/api_response.dart';
+import 'package:blog/models/comment.dart';
 import 'package:blog/models/user.dart';
 import 'package:blog/screens/login.dart';
 import 'package:blog/services/user_services.dart';

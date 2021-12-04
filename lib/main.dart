@@ -15,6 +15,9 @@ class App extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Blog app',
+      theme: ThemeData(
+        primarySwatch: Colors.teal,
+      ),
       home: const Loading(),
     );
   }

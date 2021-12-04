@@ -11,6 +11,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 Future<ApiResponse> login(String email, String password) async {
   ApiResponse apiResponse = ApiResponse();
 
+  print('email $email, password $password');
+
   try {
     final response = await http.post(Uri.parse(loginUrl),
         headers: {'Accept': 'application/json'},

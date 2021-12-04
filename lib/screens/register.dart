@@ -106,7 +106,7 @@ class _RegisterState extends State<Register> {
                         strokeWidth: 1,
                       ),
                     )
-                  : kTextButton("Login", () {
+                  : kTextButton("Register", () {
                       if (_formKey.currentState!.validate()) {
                         setState(() {
                           loading = true;
